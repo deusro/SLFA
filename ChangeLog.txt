@@ -1,5 +1,4 @@
 22/03/2023
-
 -Se usa la libreria cv2 para detectar imagenes
 -Se crea las carpetas de data para entrenar el ML
 
