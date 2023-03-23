@@ -1,0 +1,8 @@
+22/03/2023
+
+-Se usa la libreria cv2 para detectar imagenes
+-Se crea las carpetas de data para entrenar el ML
+
+23/03/2023
+-Se crea concenso sobre el proyecto
+-Se añade integrande al github
