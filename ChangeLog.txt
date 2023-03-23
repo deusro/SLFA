@@ -5,3 +5,49 @@
 23/03/2023
 -Se crea concenso sobre el proyecto
 -Se añade integrande al github
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def test_agregar_actividad(auth):
+    """Test agregar Actividad"""
+    wsbfev1 =auth
+    test_agregar_item(auth)
+    id = "1010"
+    actividad = wsbfev1.AgregarActividad(id)
+    assert actividad==True
