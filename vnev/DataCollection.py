@@ -11,7 +11,7 @@ detector = HandDetector(maxHands=1)
 offset = 20
 imageSize = 300
 
-folder = "imagen/A"
+folder = "imagen/C"
 counter = 0
 
 while True:
@@ -46,20 +46,8 @@ while True:
             #We first is 300 so we do not change it
             imgWB[:, wGap:wGap+wCal] = imgResize
 
-         # If height is more than width
-        if aspectRatio > 1:
-            #K for constant
-            k = imageSize / h
-            #math ceil for always up
-            wCal = math.ceil(k*w)
-            # New width
-            imgResize = cv2.resize(imgCrop,(wCal,imageSize))
-            #with the new width, new shape/ this funcion is unnecessary
-            imgResizeShape = imgResize.shape
-            # Using wGap to put the img in the middle
-            wGap = math.ceil((imageSize - wCal)/2)
-            # We do not use the channels and use the new resize
-            imgWB[:, wGap:wGap+wCal] = imgResize
+         
+        
         else:
             #K for constant
             k = imageSize / w
