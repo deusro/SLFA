@@ -12,6 +12,17 @@ y que sea siempre del mismo tamaño (300,300)
 versiones anteriores se usaba como marco para 
 imgWB pero ahora ya no es necesario por que fue remplazado
 con las funciones matematicas hCal and wCal
+-Creacion del Model 
+-Creacion de labels.txt
+
+
+24/03/2023
+-Conexion del Model con test.py usando clasifier
+-Se quito los puntos rojos del frontend
+-Se crea imageOutPut para replazar la imagen que ve el usuario
+-Se crea cv2.rectangular para mostrarle al usurio lo que se esta trakeando
+-Se crea cv2.rectangular para mostrarle al usuario que letra hace con las manos
+
 
 
 
